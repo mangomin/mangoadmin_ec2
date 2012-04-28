@@ -1,0 +1,24 @@
+{
+"aws":{
+    "access_key":"",
+    "secret_key":"",
+    "vpc":{
+        "vpc_id":"",
+        "subnet_id":""
+    },
+    "keyname" : "locojay"
+},
+"mongo_cluster":{
+    "group_name":"mongo_hackaton",
+    "group_description":"mongo hackaton test_cluster",
+    "mongods": [{"alias":"node1"
+                 "ami":"",
+                 "instance-type":"t1.micro"}],
+    "configs": [{"alias":"node1",
+                 "ami":"",
+                 "instance-type":"t1.micro"}],
+    "mongos": [{"alias":"node1",
+                "ami":"",
+                "instance-type":"t1.micro"}]
+}
+}
